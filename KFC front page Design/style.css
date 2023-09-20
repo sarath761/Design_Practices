@@ -1,0 +1,17 @@
+.custom-background{
+    background-color:#990134;
+}
+.custom-bd-bottom{
+    border-bottom: solid 5px white;
+
+}
+
+.nav-elements{
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+/* carousel */
+.custom-height{
+}
