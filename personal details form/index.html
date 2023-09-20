@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        
+
+            .input{
+               
+                margin-bottom: 4%;
+                text-align: center;
+                
+                
+
+            }
+            .input1{
+               
+               margin-bottom: 4%;
+               
+               background-color:orange;
+               color: white;
+               width: 100px;
+               height: 40px;
+               margin: auto;
+               margin-left: 150px;
+               border-radius: 4px;
+               border-color: aliceblue;
+               text-decoration: none;
+               
+
+           }
+
+            .main_div{
+                background-color: greenyellow;
+                width: 385px;
+                margin: auto;
+                padding: 60px 90px;  
+               
+            }
+
+            h1,h2{
+                color: red;
+            }
+
+    </style>
+</head>
+<body>
+<div class="main_div">
+    <h1 class="input"> PERSONAL DETAILS </h1>
+    <form>
+    <div class="input">
+        <label for="fname" >First name: </label>
+        <input type="text" id="fname" name="fname"><br>
+    </div>
+    <div class="input">
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" name="lname">
+    </div>
+
+    <div class="input">
+        <label for="email">E-mail id: </label>
+        <input type="email" id="email" name="email">
+    </div>
+
+    <div class="input">
+        <label for="male">Gender: </label>
+        <input type="radio" id="male" name="fav_language" value="male">
+  <label for="male">male</label>
+
+        <input type="radio" id="female" name="fav_language" value="female">
+  <label for="female">Female</label>
+    </div>
+
+    <div class="input">
+        <label for="contact">Contact: </label>
+        <input type="number" id="contact" name="contact">
+    </div>
+
+<h2 class="input">EDUCATIONAL QUALIFICATION </h2>
+<div class="input">
+<label for="Degree">Degree: </label>
+
+<select name="degree" id="degree">
+  <option value="bsc.">B.sc</option>
+  <option value="B.com">B.com</option>
+  <option value="BA">BA</option>
+  <option value="BCA">BCA</option>
+</select>
+</div>
+
+<div class="input">
+    <label for="eng">Engineering: </label>
+    
+    <select name="eng" id="eng">
+      <option value="mech">MECH</option>
+      <option value="civi">CIVIL</option>
+      <option value="arch">ARCH</option>
+      
+    </select>
+    </div>
+
+    <div class="input">
+        <label for="hobby">Hobbies: </label>
+        <input type="radio" id="hobby" name="hobby" value="chess">
+  <label for="hobby">Playing Chess </label>
+
+        <input type="radio" id="hobby" name="hobby" value="Books">
+  <label for="hobby">Reading Books</label>
+    </div>
+<h2 class="input">Address</h2>
+<textarea id="address" name="address" rows="4" cols="50" class="input">
+</textarea><br>
+<div class="input">
+<label for="resume">Attach Resume: </label>
+
+        <input type="file" id="resume" name="resume" value="resume">
+</div>
+<div >
+<input type="SUBMIT" value="SUBMIT" class="input1">
+</div>
+
+      </form>
+    </div>
+</body>
+</html>
